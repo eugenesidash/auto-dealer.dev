@@ -1,0 +1,531 @@
+@media screen and (max-width: 1199px) {
+	.schedule {
+		position: relative;
+		top: 10px;
+	}
+	.schedule p {
+		margin: 0;
+		margin-top: 10px;
+	}
+	.social {
+		top: 40px;
+		left: 0;
+		font-size: 19px;
+	}
+	.phones a {
+		font-size: 17px;
+	}
+	.info {
+		top: 13px;
+	}
+	.info ul li {
+		padding: 0 10px;
+	}
+	.tab .tab-name {
+		width: auto;
+	}
+	.bg-2 .viber-wa-right p {
+		padding: 0;
+	}
+	.bg-3 .last-vikup {
+		width: 300px;
+	}
+	.bg-3 .last-vikup-info img {
+		width: 140px;
+	}
+	.bg-3 .last-vikup .last-vikup-name {
+		margin-top: 0px;
+		height: 60px;
+	}
+	.bg-4 .vikup-city .vikup-city-logo {
+		margin: 15px 40px;
+	}
+	footer {
+		height: auto;
+	}
+	footer .footer-bg {
+		height: auto;
+	}
+	.vikup-avto-normal {
+		display: none;
+	}
+	.vikup-avto-media {
+		display: block;
+	}
+	#content-avto-media {
+		overflow: hidden;
+		height: 255px;
+		margin: 0 auto;
+		max-width: 940px;
+	}
+	#screen-avto-media {
+		width: 2880px !important;
+	}
+	#screen-avto-media .last-vikup {
+		float: left;
+		margin: 0 10px;
+	}
+	button#prev-avto-media {
+		position: relative;
+		left: -65px;
+		float: left;
+		cursor: pointer;
+	}
+	button#next-avto-media {
+		position: relative;
+		right: -80px;
+		float: right;
+		cursor: pointer;
+	}
+	button#prev-avto-media {
+		border: 2px solid #009458;
+		background-color: #fff;
+		border-radius: 5px;
+		width: 48px;
+		height: 48px;
+		font-size: 28px;
+		color: #009458;
+		padding: 0 5px;
+		z-index: 9999;
+		position: relative;
+		top: -160px;
+	}
+	button#next-avto-media {
+		border: 2px solid #009458;
+		background-color: #fff;
+		border-radius: 5px;
+		width: 48px;
+		height: 48px;
+		font-size: 28px;
+		color: #009458;
+		padding: 0 5px;
+		z-index: 9999;
+		position: relative;
+		top: -160px;
+	}
+	button#prev-avto-media:hover,
+	button#next-avto-media:hover {
+		background-color: #009458;
+		color: #fff;
+		cursor: pointer;
+	}
+	button#prev-avto-media span,
+	button#next-avto-media span {
+		position: relative;
+		color: #009458;
+	}
+	button#prev-avto-media span:hover,
+	button#next-avto-media span:hover {
+		color: #fff;
+	}
+}
+@media screen and (max-width: 991px) {
+	body {
+		zoom: 90%;
+	}
+	.logo {
+		width: 123px;
+		margin: 0 auto;
+	}
+	.schedule {
+		top: 0;
+		width: 160px;
+		height: 100px;
+		margin: 0 auto;
+	}
+	.schedule p {
+		margin-top: 5px;
+	}
+	.social {
+		width: 225px;
+		margin: 0 auto;
+		top: 35px;
+	}
+	.phones {
+		width: 225px;
+		margin: 0 auto;
+	}
+	.city p {
+		font-size: 13px;
+	}
+	.info ul li {
+		font-size: 13px;
+		padding: 5px 10px;
+	}
+	.nav-menu ul li,
+	.nav-menu-footer ul li {
+		padding: 0 10px;
+	}
+	.tab .tab-name {
+		width: 100%;
+		float: none;
+	}
+	.tab .tab-name p {
+		float: left;
+		width: 33.33%;
+		text-align: center;
+		line-height: 1.5;
+		border: 2px solid #009458;
+	}
+	.tab .tab-name p.tab-name-last {
+		line-height: 1.5;
+	}
+	.tab .tab-content {
+		width: 100%;
+	}
+	.bg-2 .viber-wa-left {
+		top: 20px;
+		left: 0;
+	}
+	.bg-2 .viber-wa-right {
+		top: 10px;
+	}
+	.bg-2 .viber-wa-right p {
+		font-size: 20px;
+	}
+	.bg-3 .opis-way {
+		width: 160px;
+	}
+	.bg-3 .opis-way p {
+		font-size: 16px;
+	}
+	.bg-3 .arrow-last {
+		margin-top: -22px;
+	}
+	.bg-3 .ocenka-content {
+		margin-top: 20px;
+	}
+	.bg-4 .vikup-city .vikup-city-logo {
+		margin: 15px 20px;
+	}
+	.bg-4 .vikup-city .vikup-city-logo img {
+		margin-right: 40px;
+	}
+	.bg-4 .vikup-content p {
+		font-size: 15px;
+	}
+	footer .info,
+	footer .info-2 {
+		display: none;
+	}
+	footer .info-991 {
+		display: block;
+		border: none;
+		width: 315px;
+		font-size: 13px;
+		position: relative;
+		top: 25px;
+		left: -60px;
+	}
+	footer .info-991 ul {
+		margin: 0;
+		padding: 0;
+	}
+	footer .info-991 ul li {
+		float: left;
+		padding: 5px 10px;
+	}
+	#content-avto-media {
+		max-width: 630px;
+	}
+}
+@media screen and (max-width: 937px) {
+	.nav-menu ul li,
+	.nav-menu-footer ul li {
+		font-size: 15px;
+		line-height: 3.5;
+	}
+}
+@media screen and (max-width: 863px) {
+	.nav-menu ul li,
+	.nav-menu-footer ul li {
+		font-size: 13px;
+		padding-top: 5px;
+	}
+}
+@media screen and (max-width: 820px) {
+	.form {
+		width: 300px;
+	}
+}
+@media screen and (max-width: 800px) {
+	.vikup-avto-media {
+		display: none;
+	}
+	.vikup-avto-media-800 {
+		display: block;
+		height: 320px;
+	}
+	#content-avto-media-800 {
+		overflow: hidden;
+		height: 255px;
+		margin: 0 auto;
+		max-width: 300px;
+	}
+	#screen-avto-media-800 {
+		width: 2700px !important;
+	}
+	#screen-avto-media-800 .last-vikup {
+		float: left;
+		margin: 0 10px;
+		width: 280px;
+		height: 255px;
+	}
+	button#prev-avto-media-800 {
+		position: relative;
+		left: -65px;
+		float: left;
+		cursor: pointer;
+	}
+	button#next-avto-media-800 {
+		position: relative;
+		right: -80px;
+		float: right;
+		cursor: pointer;
+	}
+	button#prev-avto-media-800 {
+		border: 2px solid #009458;
+		background-color: #fff;
+		border-radius: 5px;
+		width: 48px;
+		height: 48px;
+		font-size: 28px;
+		color: #009458;
+		padding: 0 5px;
+		z-index: 9999;
+		position: relative;
+		top: -160px;
+		left: 100px;
+	}
+	button#next-avto-media-800 {
+		border: 2px solid #009458;
+		background-color: #fff;
+		border-radius: 5px;
+		width: 48px;
+		height: 48px;
+		font-size: 28px;
+		color: #009458;
+		padding: 0 5px;
+		z-index: 9999;
+		position: relative;
+		top: -160px;
+		right: 100px;
+	}
+	button#prev-avto-media-800:hover,
+	button#next-avto-media-800:hover {
+		background-color: #009458;
+		color: #fff;
+		cursor: pointer;
+	}
+	button#prev-avto-media-800 span,
+	button#next-avto-media-800 span {
+		position: relative;
+		color: #009458;
+	}
+	button#prev-avto-media-800 span:hover,
+	button#next-avto-media-800 span:hover {
+		color: #fff;
+	}
+}
+@media screen and (max-width: 788px) {
+	.nav-menu ul li,
+	.nav-menu-footer ul li {
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 767px) {
+	body {
+		zoom: 90%;
+	}
+	.schedule {
+		text-align: center;
+	}
+	.social {
+		top: 0;
+	}
+	.phones,
+	.city {
+		left: 0;
+	}
+	.info {
+		border: none;
+	}
+	.info ul {
+		padding: 0;
+	}
+	.info ul li {
+		float: none;
+	}
+	.bg-1 {
+		height: auto;
+		padding: 0;
+	}
+	.tab .tab-content h2 {
+		text-align: center;
+	}
+	.tab .tab-name p {
+		line-height: 3;
+	}
+	.tab .tab-name p.tab-name-last {
+		line-height: 3;
+	}
+	.form {
+		left: 0;
+		width: 310px;
+		margin: 20px auto 0;
+		background: none;
+	}
+	.form p {
+		padding-top: 10px;
+		margin-bottom: 0;
+	}
+	.form form {
+		background: #fff;
+		height: 550px;
+	}
+	.bg-2 {
+		height: auto;
+	}
+	.bg-2 .viber-wa-left {
+		top: 0;
+		left: 0;
+		float: none;
+	}
+	.bg-2 .viber-wa-left p {
+		text-align: center;
+		font-size: 25px;
+	}
+	.bg-2 .viber-wa-right {
+		top: 0;
+		left: 0;
+		float: none;
+		border-left: none;
+		border-top: 2px solid #fff;
+	}
+	.bg-2 .viber-wa-right p {
+		text-align: center;
+		font-size: 20px;
+	}
+	.bg-3 .img-wrap-rad {
+		margin: 0 auto 10px;
+	}
+	.bg-3 .opis-way {
+		margin-bottom: 20px;
+	}
+	.bg-3 .arrow {
+		display: none;
+	}
+	.bg-4 .vikup-city {
+		width: 250px;
+		margin: 0 auto 20px;
+	}
+	footer .fa-bars {
+		color: #000;
+	}
+	footer .info-991 {
+		top: 0;
+		left: 0;
+		margin: 10px auto;
+	}
+	footer .info-991 ul li {
+		text-align: center;
+		float: none;
+	}
+	footer .social {
+		top: 50px;
+	}
+	footer .phones {
+		position: relative;
+		top: -10px;
+	}
+	footer .footer-height {
+		height: 100px;
+	}
+	.button-click {
+		width: 30px;
+		margin: 0 auto;
+	}
+	.fa-bars {
+		color: #fff;
+		font-size: 30px !important;
+	}
+	.nav-menu-click {
+		display: block;
+	}
+	.nav-menu,
+	.nav-menu-footer {
+		display: none;
+		height: auto;
+	}
+	.nav-menu li,
+	.nav-menu-footer li {
+		display: block;
+	}
+	.nav-menu ul,
+	.nav-menu-footer ul {
+		padding: 0;
+	}
+	.nav-menu ul li,
+	.nav-menu-footer ul li {
+		float: none;
+		text-align: left;
+		width: 280px;
+		margin: 0 auto;
+	}
+	.button-click {
+		display: block;
+	}
+}
+@media screen and (max-width: 710px) {
+	.tab .tab-name p.tab-name-last {
+		line-height: 1.5;
+	}
+}
+@media screen and (max-width: 645px) {
+	button#prev-avto-media-800 {
+		left: 50px;
+	}
+	button#next-avto-media-800 {
+		right: 50px;
+	}
+}
+@media screen and (max-width: 555px) {
+	.tab .tab-name p {
+		line-height: 1.5;
+	}
+}
+@media screen and (max-width: 540px) {
+	button#prev-avto-media-800 {
+		left: 10px;
+	}
+	button#next-avto-media-800 {
+		right: 10px;
+	}
+}
+@media screen and (max-width: 498px) {
+	.tab .tab-name p {
+		float: left;
+		width: 33.33%;
+	}
+}
+@media screen and (max-width: 455px) {
+	button#prev-avto-media-800 {
+		top: 10px;
+		left: 10px;
+	}
+	button#next-avto-media-800 {
+		top: 10px;
+		right: 10px;
+	}
+}
+@media screen and (max-width: 450px) {
+	.tab .tab-name p {
+		font-size: 10px;
+		padding-top: 15px;
+	}
+}
+@media screen and (max-width: 455px) {
+	button#next-avto-media-800 {
+		right: 0;
+	}
+}
