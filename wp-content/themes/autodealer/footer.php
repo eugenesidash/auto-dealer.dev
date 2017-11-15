@@ -19,7 +19,12 @@
 	<div class="footer-bg">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-5 col-sm-4 footer-height">
+				<div class="col-lg-2 col-md-2 footer-height colcoldn">
+					<div class="logo-footer">
+						<a href="/"><img src="<?php bloginfo('template_directory') ?>/img/logo-footer.png" alt="Auto Dealer"></a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 footer-height">
 					<div class="info">
 						<ul>
 							<li><a href="/dopolnitelnie-uslugi/">Дополнительные услуги</a></li>
@@ -77,7 +82,9 @@
 	</div>
 </footer>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/scroll.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/dropdown-menu.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/avto-slider.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/arrow27.js"></script>
 </body>
 </html>

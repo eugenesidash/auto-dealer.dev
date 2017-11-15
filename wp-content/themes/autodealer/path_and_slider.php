@@ -5,44 +5,52 @@
 				<h3>Как происходит <span>выкуп авто?</span></h3>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-3">
-				<div class="img-wrap-rad">
-					<img src="<?php bloginfo('template_directory') ?>/img/avto.png" alt="avto">
-				</div>
-				<div class="opis-way">
-					<p>Решение продать<br>авто</p>
-				</div>
-				<div class="arrow">
-					<img src="<?php bloginfo('template_directory') ?>/img/arrow-right.png" alt="arrow">
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-3 col-sm-3">
-				<div class="img-wrap-rad">
-					<img src="<?php bloginfo('template_directory') ?>/img/phone.png" alt="phone">
-				</div>
-				<div class="opis-way">
-					<p>Подача заявки удобным способом</p>
-				</div>
-				<div class="arrow">
-					<img src="<?php bloginfo('template_directory') ?>/img/arrow-right.png" alt="arrow">
+				<div class="steps">
+					<div class="img-wrap-rad">
+						<img src="<?php bloginfo('template_directory') ?>/img/first-step.png" alt="avto">
+					</div>
+					<div class="opis-way">
+						<p>Решение продать<br>авто</p>
+					</div>
+					<div class="arrow">
+						<img src="<?php bloginfo('template_directory') ?>/img/arrow-right.png" alt="arrow">
+					</div>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-3">
-				<div class="img-wrap-rad">
-					<img src="<?php bloginfo('template_directory') ?>/img/order.png" alt="order">
-				</div>
-				<div class="opis-way">
-					<p>Получение информации о цене для вас</p>
-				</div>
-				<div class="arrow arrow-last">
-					<img src="<?php bloginfo('template_directory') ?>/img/arrow-right.png" alt="arrow">
+				<div class="steps">
+					<div class="img-wrap-rad">
+						<img src="<?php bloginfo('template_directory') ?>/img/second-step.png" alt="phone">
+					</div>
+					<div class="opis-way">
+						<p>Подача заявки<br>удобным способом</p>
+					</div>
+					<div class="arrow">
+						<img src="<?php bloginfo('template_directory') ?>/img/arrow-right.png" alt="arrow">
+					</div>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-3">
-				<div class="img-wrap-rad">
-					<img src="<?php bloginfo('template_directory') ?>/img/completed.png" alt="completed">
+				<div class="steps">
+					<div class="img-wrap-rad">
+						<img src="<?php bloginfo('template_directory') ?>/img/third-step.png" alt="order">
+					</div>
+					<div class="opis-way">
+						<p>Получение информации<br>о цене для вас</p>
+					</div>
+					<div class="arrow arrow-last">
+						<img src="<?php bloginfo('template_directory') ?>/img/arrow-right.png" alt="arrow">
+					</div>
 				</div>
-				<div class="opis-way">
-					<p>Успешная продажа авто</p>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3">
+				<div class="steps">
+					<div class="img-wrap-rad">
+						<img src="<?php bloginfo('template_directory') ?>/img/four-step.png" alt="completed">
+					</div>
+					<div class="opis-way">
+						<p>Успешная<br>продажа авто</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -50,8 +58,8 @@
 			<div class="col-lg-6 col-md-6">
 				<div class="ocenka-content">
 					<p>Многие водители, время от времени, ищут быстрый автовыкуп в Украине, чтобы цены были не заниженными. Ситуации бывают абсолютно разные: финансовые трудности, эмиграция или очередное обновление автопарка. Как правило, во всех этих случаях желательно срочно продать авто в Киеве и других городах, а также получить за это хорошие деньги.<br><br>Компания Auto-dealer осуществляет авто выкуп срочно абсолютно любых автомобилей на территории Украине в течение 15 лет. За это время мы успели заработать себе репутацию настоящих профессионалов в сфере автоскупки.</p>
-					<div class="ocenka-button">
-						<a href="#avhor-vikup"><p>Оценить авто</p></a>
+					<div class="ocenka-button" id="anhorvikup-1">
+						<a href="#anhorvikup"><p>Оценить авто</p></a>
 					</div>
 				</div>
 			</div>
@@ -61,6 +69,10 @@
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
+<div class="bg-grey">
+	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
 				<h3><span>Последние</span> выкупленные авто</h3>
@@ -73,7 +85,7 @@
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-1.png" alt="car">
-								<p>Год: <span>2007</span></p>
+								<p>Год выпуска: <span>2007</span></p>
 								<p>Пробег: <span>160 000</span></p>
 								<p>Пробег: <span>6/10</span></p>
 							</div>
@@ -83,12 +95,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>447 110 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-2.png" alt="car">
-								<p>Год: <span>2016</span></p>
+								<p>Год выпуска: <span>2016</span></p>
 								<p>Пробег: <span>100 000</span></p>
 								<p>Пробег: <span>9/10</span></p>
 							</div>
@@ -98,12 +109,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>1 412 780 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-3.png" alt="car">
-								<p>Год: <span>2007</span></p>
+								<p>Год выпуска: <span>2007</span></p>
 								<p>Пробег: <span>160 000</span></p>
 								<p>Пробег: <span>6/10</span></p>
 							</div>
@@ -113,12 +123,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>447 110 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-1.png" alt="car">
-								<p>Год: <span>2007</span></p>
+								<p>Год выпуска: <span>2007</span></p>
 								<p>Пробег: <span>160 000</span></p>
 								<p>Пробег: <span>6/10</span></p>
 							</div>
@@ -128,12 +137,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>447 110 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-2.png" alt="car">
-								<p>Год: <span>2016</span></p>
+								<p>Год выпуска: <span>2016</span></p>
 								<p>Пробег: <span>100 000</span></p>
 								<p>Пробег: <span>9/10</span></p>
 							</div>
@@ -143,12 +151,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>1 412 780 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-3.png" alt="car">
-								<p>Год: <span>2007</span></p>
+								<p>Год выпуска: <span>2007</span></p>
 								<p>Пробег: <span>160 000</span></p>
 								<p>Пробег: <span>6/10</span></p>
 							</div>
@@ -158,12 +165,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>447 110 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-1.png" alt="car">
-								<p>Год: <span>2007</span></p>
+								<p>Год выпуска: <span>2007</span></p>
 								<p>Пробег: <span>160 000</span></p>
 								<p>Пробег: <span>6/10</span></p>
 							</div>
@@ -173,12 +179,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>447 110 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-2.png" alt="car">
-								<p>Год: <span>2016</span></p>
+								<p>Год выпуска: <span>2016</span></p>
 								<p>Пробег: <span>100 000</span></p>
 								<p>Пробег: <span>9/10</span></p>
 							</div>
@@ -188,12 +193,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>1 412 780 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-3.png" alt="car">
-								<p>Год: <span>2007</span></p>
+								<p>Год выпуска: <span>2007</span></p>
 								<p>Пробег: <span>160 000</span></p>
 								<p>Пробег: <span>6/10</span></p>
 							</div>
@@ -203,7 +207,6 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>447 110 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 					</div>
 				</div>
@@ -216,7 +219,7 @@
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-1.png" alt="car">
-								<p>Год: <span>2007</span></p>
+								<p>Год выпуска: <span>2007</span></p>
 								<p>Пробег: <span>160 000</span></p>
 								<p>Пробег: <span>6/10</span></p>
 							</div>
@@ -226,12 +229,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>447 110 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-2.png" alt="car">
-								<p>Год: <span>2016</span></p>
+								<p>Год выпуска: <span>2016</span></p>
 								<p>Пробег: <span>100 000</span></p>
 								<p>Пробег: <span>9/10</span></p>
 							</div>
@@ -241,12 +243,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>1 412 780 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-3.png" alt="car">
-								<p>Год: <span>2007</span></p>
+								<p>Год выпуска: <span>2007</span></p>
 								<p>Пробег: <span>160 000</span></p>
 								<p>Пробег: <span>6/10</span></p>
 							</div>
@@ -256,12 +257,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>447 110 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-1.png" alt="car">
-								<p>Год: <span>2007</span></p>
+								<p>Год выпуска: <span>2007</span></p>
 								<p>Пробег: <span>160 000</span></p>
 								<p>Пробег: <span>6/10</span></p>
 							</div>
@@ -271,12 +271,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>447 110 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-2.png" alt="car">
-								<p>Год: <span>2016</span></p>
+								<p>Год выпуска: <span>2016</span></p>
 								<p>Пробег: <span>100 000</span></p>
 								<p>Пробег: <span>9/10</span></p>
 							</div>
@@ -286,12 +285,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>1 412 780 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-3.png" alt="car">
-								<p>Год: <span>2007</span></p>
+								<p>Год выпуска: <span>2007</span></p>
 								<p>Пробег: <span>160 000</span></p>
 								<p>Пробег: <span>6/10</span></p>
 							</div>
@@ -301,12 +299,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>447 110 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-1.png" alt="car">
-								<p>Год: <span>2007</span></p>
+								<p>Год выпуска: <span>2007</span></p>
 								<p>Пробег: <span>160 000</span></p>
 								<p>Пробег: <span>6/10</span></p>
 							</div>
@@ -316,12 +313,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>447 110 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-2.png" alt="car">
-								<p>Год: <span>2016</span></p>
+								<p>Год выпуска: <span>2016</span></p>
 								<p>Пробег: <span>100 000</span></p>
 								<p>Пробег: <span>9/10</span></p>
 							</div>
@@ -331,12 +327,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>1 412 780 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-3.png" alt="car">
-								<p>Год: <span>2007</span></p>
+								<p>Год выпуска: <span>2007</span></p>
 								<p>Пробег: <span>160 000</span></p>
 								<p>Пробег: <span>6/10</span></p>
 							</div>
@@ -346,7 +341,6 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>447 110 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 					</div>
 				</div>
@@ -359,7 +353,7 @@
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-1.png" alt="car">
-								<p>Год: <span>2007</span></p>
+								<p>Год выпуска: <span>2007</span></p>
 								<p>Пробег: <span>160 000</span></p>
 								<p>Пробег: <span>6/10</span></p>
 							</div>
@@ -369,12 +363,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>447 110 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-2.png" alt="car">
-								<p>Год: <span>2016</span></p>
+								<p>Год выпуска: <span>2016</span></p>
 								<p>Пробег: <span>100 000</span></p>
 								<p>Пробег: <span>9/10</span></p>
 							</div>
@@ -384,12 +377,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>1 412 780 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-3.png" alt="car">
-								<p>Год: <span>2007</span></p>
+								<p>Год выпуска: <span>2007</span></p>
 								<p>Пробег: <span>160 000</span></p>
 								<p>Пробег: <span>6/10</span></p>
 							</div>
@@ -399,12 +391,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>447 110 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-1.png" alt="car">
-								<p>Год: <span>2007</span></p>
+								<p>Год выпуска: <span>2007</span></p>
 								<p>Пробег: <span>160 000</span></p>
 								<p>Пробег: <span>6/10</span></p>
 							</div>
@@ -414,12 +405,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>447 110 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-2.png" alt="car">
-								<p>Год: <span>2016</span></p>
+								<p>Год выпуска: <span>2016</span></p>
 								<p>Пробег: <span>100 000</span></p>
 								<p>Пробег: <span>9/10</span></p>
 							</div>
@@ -429,12 +419,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>1 412 780 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-3.png" alt="car">
-								<p>Год: <span>2007</span></p>
+								<p>Год выпуска: <span>2007</span></p>
 								<p>Пробег: <span>160 000</span></p>
 								<p>Пробег: <span>6/10</span></p>
 							</div>
@@ -444,12 +433,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>447 110 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-1.png" alt="car">
-								<p>Год: <span>2007</span></p>
+								<p>Год выпуска: <span>2007</span></p>
 								<p>Пробег: <span>160 000</span></p>
 								<p>Пробег: <span>6/10</span></p>
 							</div>
@@ -459,12 +447,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>447 110 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-2.png" alt="car">
-								<p>Год: <span>2016</span></p>
+								<p>Год выпуска: <span>2016</span></p>
 								<p>Пробег: <span>100 000</span></p>
 								<p>Пробег: <span>9/10</span></p>
 							</div>
@@ -474,12 +461,11 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>1 412 780 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 						<div class="last-vikup">
 							<div class="last-vikup-info">
 								<img src="<?php bloginfo('template_directory') ?>/img/car-3.png" alt="car">
-								<p>Год: <span>2007</span></p>
+								<p>Год выпуска: <span>2007</span></p>
 								<p>Пробег: <span>160 000</span></p>
 								<p>Пробег: <span>6/10</span></p>
 							</div>
@@ -489,7 +475,6 @@
 							<div class="last-vikup-price">
 								<p>Цена выкупа: <span>447 110 грн.</span></p>
 							</div>
-							<div class="last-vikup-clear"></div>
 						</div>
 					</div>
 				</div>

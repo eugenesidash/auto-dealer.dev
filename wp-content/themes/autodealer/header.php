@@ -17,6 +17,57 @@
 </head>
 <body>
 	<header>
+		<div class="row row-zero">
+			<div class="col-lg-2 col-md-2 col-sm-2"></div>
+			<div class="col-lg-2 col-md-2 col-sm-2">
+				<!-- <div class="city-2">
+					<p>Ваш город: </p>
+				</div> -->
+				<form name="autodealer-form" method="post" action="<?php bloginfo('template_directory') ?>/form_send.php">
+					<div class="city">
+						<select name="city_form" id="city-form" required>
+							<option value="city_form_1" disabled selected>Выберете город</option>
+							<option value="Харьков">Харьков</option>
+							<option value="Николаев">Николаев</option>
+							<option value="Днепр">Днепр</option>
+							<option value="Одесса">Одесса</option>
+							<option value="Запорожье">Запорожье</option>
+							<option value="Полтава">Полтава</option>
+							<option value="Сумы">Сумы</option>
+							<option value="Винница">Винница</option>
+							<option value="Херсон">Херсон</option>
+							<option value="Ровно">Ровно</option>
+							<option value="Львов">Львов</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6">
+					<div class="info">
+						<?php
+						$args = array(
+							'theme_location'  => '',
+							'menu'            => '',
+							'container'       => 'ul',
+							'container_class' => 'navbar-menu',
+							'container_id'    => '',
+							'menu_class'      => 'navbar-menu',
+							'menu_id'         => '',
+							'echo'            => true,
+							'fallback_cb'     => 'wp_page_menu',
+							'before'          => '',
+							'after'           => '',
+							'link_before'     => '',
+							'link_after'      => '',
+							'items_wrap'      => '<ul id = "%1$s" class = "%2$s">%3$s</ul>',
+							'depth'           => 0,
+							'walker'          => '',
+						);
+						wp_nav_menu( $args ); ?>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2"></div>
+			</div>
+		</header>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-2 col-md-2 col-sm-6">
@@ -47,37 +98,6 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-lg-2 col-md-2 col-sm-2">
-					<div class="city">
-						<p><?php echo do_shortcode("[wt_geotargeting get='city']"); ?></p>
-					</div>
-				</div>
-				<div class="col-lg-10 col-md-10 col-sm-10">
-					<div class="info">
-						<?php
-						$args = array(
-							'theme_location'  => '',
-							'menu'            => '',
-							'container'       => 'ul',
-							'container_class' => 'navbar-menu',
-							'container_id'    => '',
-							'menu_class'      => 'navbar-menu',
-							'menu_id'         => '',
-							'echo'            => true,
-							'fallback_cb'     => 'wp_page_menu',
-							'before'          => '',
-							'after'           => '',
-							'link_before'     => '',
-							'link_after'      => '',
-							'items_wrap'      => '<ul id = "%1$s" class = "%2$s">%3$s</ul>',
-							'depth'           => 0,
-							'walker'          => '',
-						);
-						wp_nav_menu( $args ); ?>
-					</div>
-				</div>
-			</div>
 		</div>
 		<div class="row row-zero">
 			<div class="col-lg-12 col-zero">
@@ -86,13 +106,12 @@
 				</div>
 				<div class="nav-menu">
 					<ul>
-						<li><a href="/legkovye/"><img src="<?php bloginfo('template_directory') ?>/img/legkovie.png" alt="legkovie">Легковые</a></li>
-						<li><a href="/gruzovye/"><img src="<?php bloginfo('template_directory') ?>/img/gruz.png" alt="gruz">Грузовые</a></li>
-						<li><a href="/bitye-i-neispravnye/"><img src="<?php bloginfo('template_directory') ?>/img/bitie.png" alt="bitie">Битые и неисправные</a></li>
-						<li><a href="/kreditnye/"><img src="<?php bloginfo('template_directory') ?>/img/credit.png" alt="credit">Кредитные</a></li>
-						<li><a href="/s-probegom/"><img src="<?php bloginfo('template_directory') ?>/img/probeg.png" alt="probeg">С пробегом (б/у)</a></li>
+						<li><a href="/legkovye/"><img src="<?php bloginfo('template_directory') ?>/img/legkovie-main.png" alt="legkovie">Легковые</a></li>
+						<li><a href="/gruzovye/"><img src="<?php bloginfo('template_directory') ?>/img/gruz-main.png" alt="gruz">Грузовые</a></li>
+						<li><a href="/bitye-i-neispravnye/"><img src="<?php bloginfo('template_directory') ?>/img/bitie-main.png" alt="bitie">Битые и неисправные</a></li>
+						<li><a href="/kreditnye/"><img src="<?php bloginfo('template_directory') ?>/img/credit-main.png" alt="credit">Кредитные</a></li>
+						<li><a href="/s-probegom/"><img src="<?php bloginfo('template_directory') ?>/img/probeg-main.png" alt="probeg">С пробегом (б/у)</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
-	</header>
