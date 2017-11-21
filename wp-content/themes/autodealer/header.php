@@ -92,9 +92,8 @@
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-6">
 					<div class="phones">
-						<a href="tel:+380502302323"><img src="<?php bloginfo('template_directory') ?>/img/vodafon.png" alt="vodafon"> + 38 (050) 230 23 23</a><br>
-						<a href="tel:+380962302323"><img src="<?php bloginfo('template_directory') ?>/img/kyivstar.png" alt="kyivstar"> + 38 (096) 230 23 23</a><br>
-						<a href="tel:+380932302323"><img src="<?php bloginfo('template_directory') ?>/img/lifecell.png" alt="lifecell"> + 38 (093) 230 23 23</a>
+						<a href="tel:+380954839648"><img src="<?php bloginfo('template_directory') ?>/img/vodafon.png" alt="vodafon"> + 38 (095) 483 96 48</a><br>
+						<a href="tel:+380933502688"><img src="<?php bloginfo('template_directory') ?>/img/lifecell.png" alt="lifecell"> + 38 (093) 350 26 88</a>
 					</div>
 				</div>
 			</div>
