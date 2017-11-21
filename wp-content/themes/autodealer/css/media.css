@@ -191,7 +191,7 @@
 		left: 10px !important;
 	}
 	.phones {
-		width: 225px;
+		width: 240px;
 		margin: 0 auto;
 		left: 10px !important;
 		top: 0;
@@ -654,6 +654,12 @@
 	}
 	.bg-1-1 h3, .bg-3 h3, .bg-grey h3, .bg-4 h3 {
 		margin: 20px 0;
+	}
+	footer .phones {
+		top: -45px;
+	}
+	.city {
+		left: -15px;
 	}
 }
 @media screen and (max-width: 320px) {
